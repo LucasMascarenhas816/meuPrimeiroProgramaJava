@@ -1,9 +1,9 @@
 /**
  *Meu primeiro programa Java
  *Este programa mostra ao aluno:
- *1)Que um programa Java È construido dentro de um projeto java.
- *2)Todo programa Java deve ter uma Classe com mÈtodo main.
- *3)Como exibir informaÁıes no terminal(Console) do Java.
+ *1)Que um programa Java √© construido dentro de um projeto java.
+ *2)Todo programa Java deve ter uma Classe com m√©todo main.
+ *3)Como exibir informa√ß√µes no terminal(Console) do Java.
  *4)Como ter um string do terminal (console) do Java.
  * 
  */
@@ -19,15 +19,15 @@ import java.util.Scanner;
 public class Principal { 
 	public static void main(String[] args) { 
 		
-		//SaldaÁ„o e pergunta o nome.
-		System.out.println("Ol· amigo!\nQual È o seu nome?");
+		//Salda√ß√£o e pergunta o nome.
+		System.out.println("Ol√° amigo!\nQual √© o seu nome?");
 		
 		//Ler o nome.
 		Scanner in = new Scanner(System.in);
 		String nome = in.nextLine();
 		
-		//SaldaÁ„o especifica.
-		System.out.printf("Ol· %s!", nome);
+		//Salda√ß√£o especifica para o pr√≥orio nome lido.
+		System.out.printf("Ol√° %s!", nome);
 		in.close();
 		
 	}
